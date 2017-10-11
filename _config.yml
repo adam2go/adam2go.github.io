@@ -21,8 +21,8 @@ github: adam2go
 # linkedin: suyan0830
 
 # avatar and Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+avatar: /assets/img/avatar.jpg
+favicon: /assets/img/avatar.jpg
 
 # disqus config
 disqus:
