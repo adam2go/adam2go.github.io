@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Welcome to Adam's Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://aifuns.cc # the base hostname & protocol for your site
-rss_url: /pages/feed.xml
+#rss_url: /pages/feed.xml
 author: Adam Lee
 
 # Sidebar filter
@@ -18,7 +18,7 @@ recent_num: 20
 weibo: adam2go
 github: adam2go
 # instagram: suyan0830
-linkedin: lihaixin
+#linkedin: lihaixin
 
 # avatar and Favicon
 avatar: /assets/img/avatar.jpg
