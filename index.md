@@ -1,9 +1,8 @@
 ---
-title: About My Blog
 layout: post
 ---
 
-## 关于Adam的博客
+## 关于我的博客
 
 我是Adam，一个靠谱的93后。
 

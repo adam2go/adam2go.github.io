@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的第一篇GitHub博客
-category: 技术
+category: 其他
 tags: Essay
 keywords: 博客,第一篇
 description: 第一篇博客做个测试而已
