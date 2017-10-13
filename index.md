@@ -11,7 +11,7 @@ layout: post
 
 ![Adam-w400](/assets/img/avatar.jpg)
 
-我平时喜欢摄影，喜欢旅行，并总能发现点生活中的美。摄影作品发布在[Lofter](http://lee6831.lofter.com)和个人微博发布在[新浪微博](http://weibo.com/adam2go)。
+我平时喜欢摄影，喜欢旅行，并总能发现点生活中的美。摄影作品发布在[Lofter](http://lee6831.lofter.com),个人微博发布在[新浪微博](http://weibo.com/adam2go)。
 
 ## 关于分类
 
