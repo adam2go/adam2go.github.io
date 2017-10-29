@@ -178,7 +178,8 @@ cat是**concatenate**的简写，类似于dos下面的`type`命令。用法如�
 示例：
 
 
-```Oracle@hjtest:~/hgd> echo "123" "456"
+```
+Oracle@hjtest:~/hgd> echo "123" "456"
 
 123 456
 
@@ -218,7 +219,8 @@ Dollar signs ($)，Back quotes (`)，Backslashes (/)，Excalmatory mark(!)
 示例如下：
 
 
-```oracle@hjtest:~> echo "`TEST`"
+```
+oracle@hjtest:~> echo "`TEST`"
 
 -bash: TEST: command not found
 
