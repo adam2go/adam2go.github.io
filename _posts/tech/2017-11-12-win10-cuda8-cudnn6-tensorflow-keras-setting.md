@@ -38,7 +38,7 @@ description: 在windows10系统下配置机器学习环境
 
 ![cuda兼容性问题](http://oxpypycim.bkt.clouddn.com/cuda兼容性问题.PNG)
 
-不用管它，直接选`继续`。等待CUDA安装完。
+不用管它，直接选`继续`。等待CUDA安装完，然后在系统变量`Path`中添加cuda的`bin`和`lib／x64`这两个路径。
 
 ### cuDNN安装
 
@@ -50,7 +50,7 @@ description: 在windows10系统下配置机器学习环境
 
 下面我们开始安装python环境，估计没有不知道**Anaconda**的python开发朋友吧（不知道的自己百度去），我们就用它来配置python环境。
 
-但是Anaconda的官网服务器不在国内，下载巨慢！好在有清华的[镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)，新版的Anaconda会默认使用**python3.6**，安装时`“Add Anaconda to my PATH environment variable”`这里可以不选，用到时直接去安装目录下执行命令。等着安装完成。
+但是Anaconda的服务器不在国内，下载巨慢！好在有清华的[镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)，新版的Anaconda会默认使用**python3.6**，安装时`“Add Anaconda to my PATH environment variable”`这里可以不选，用到时直接去安装目录下执行命令。等着安装完成。
 
 ![anaconda安装1](http://oxpypycim.bkt.clouddn.com/anaconda安装1.jpg)
 
@@ -88,8 +88,6 @@ TypeError: parse() got an unexpected keyword argument 'transport_encoding'
 ```
 
 重新输入命令安装上面的命令，等待安装完成。
-
-然后在系统变量`Path`中添加cuda的`bin`和`lib／x64`这两个路径。
 
 ### pyCharm安装
 
@@ -130,7 +128,7 @@ print(sess.run(tip))
 
 ### cuDNN 6 安装
 
-按照这个思路我需要再找到**cuDNN**的旧版本，打开官网，啊咧！居然最高版本只是cuDNN 5。。。
+按照这个思路我需要再找到**cuDNN**的旧版本，打开官网，啊咧！居然旧版的最高版本只是cuDNN 5。。。
 
 后来终于在网盘里找到了cuDNN 6，目前已转到我的网盘，需要的自取。
 
@@ -231,7 +229,7 @@ OK，run起来了，大功告成！关于显卡的状态，可以去`C:\Program 
 
 ![nvidia_smi](http://oxpypycim.bkt.clouddn.com/nvidia_smi.PNG)
 
-结果如下：
+运行结果如下：
 
 ![mnist_test](http://oxpypycim.bkt.clouddn.com/mnist_test.PNG)
 
