@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mac下编译TensorFlow
+title: 在Mac下编译TensorFlow
 category: 技术
 tags: TensorFlow
 description: 在MacBook Pro上编译TensorFlow
@@ -22,7 +22,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import tensorflow as tf
 ```
 
-也可以选择花20分钟编译一个健全的TensorFlow。因为本来新MBP没有N卡已经够慢了，再阉割这些加速指令，就更残废了。
+也可以选择花点时间编译一个健全的TensorFlow。因为本来新MBP没有N卡已经够慢了，再阉割这些加速指令，就更残废了。
 
 #### 环境
 
@@ -47,9 +47,9 @@ brew install bazel
 
 #### 安装TensorFlow
 
-##### 配置
-
 -------
+
+##### 配置
 
 `pip list`来查看当前所有的python包列表，然后`pip uninstall tensorflow`卸载掉当前的TensorFlow。
 
@@ -61,9 +61,9 @@ brew install bazel
 
 直到看到`Configuration finished`表明配置完成了。
 
-##### 编译
-
 -------
+
+##### 编译
 
 执行下面代码开始开始编译：
 
@@ -72,7 +72,7 @@ brew install bazel
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 ```
 
-大概20分钟后。。。
+大概看了一部美剧回来后。。。
 
 ![tf_config_finish](http://oxpypycim.bkt.clouddn.com/tf_config_finish.png)
 
@@ -93,9 +93,9 @@ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 2017年11月30日 星期四 22时51分55秒 CST : === Output wheel file is in: /tmp/tensorflow_pkg
 ```
 
-##### 安装
-
 -------
+
+##### 安装
 
 下面来安装生成的wheel，还是用pip来安装：
 
@@ -107,9 +107,9 @@ pip install tensorflow-1.4.0-cp36-cp36m-macosx_10_7_x86_64.whl
 
 ![tf_install_wheel](http://oxpypycim.bkt.clouddn.com/tf_install_wheel.png)
 
-##### 测试
-
 -------
+
+##### 测试
 
 好了，现在来测试一下：
 
