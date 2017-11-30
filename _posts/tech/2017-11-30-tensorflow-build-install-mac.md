@@ -123,5 +123,5 @@ pip install tensorflow-1.4.0-cp36-cp36m-macosx_10_7_x86_64.whl
 Failed to load the native TensorFlow runtime
 ```
 
-不要在TensorFlow编译目录中运行python，cd到其他历经就行了。
+不要在TensorFlow编译目录中运行python，cd到其他路径就行了。
 
