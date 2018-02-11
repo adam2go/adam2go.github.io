@@ -31,10 +31,12 @@ description: 如何通过Dataset优雅的使用TensorFlow
 
 这是一种常见情况：我们拥有一个 numpy 数组，想把它传递给 TensorFlow。
 
-    # create a random vector of shape (100,2)
-    x = np.random.sample((100,2))
-    # make a dataset from a numpy array
-    dataset = tf.data.Dataset.from_tensor_slices(x)
+```python
+# create a random vector of shape (100,2)
+x = np.random.sample((100,2))
+# make a dataset from a numpy array
+dataset = tf.data.Dataset.from_tensor_slices(x)
+```
 
 我们当然也可以传递多个 numpy 数组，一个典型的例子是：当我们已有被分配多个特征和标签的数据时……
 
