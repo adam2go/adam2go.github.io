@@ -2,7 +2,7 @@
 layout: post
 title: 负载场景及解决方案
 category: 技术
-tags: load balance
+tags: load_balance
 description: 分析不同场景下的负载均衡设计
 ---
 
